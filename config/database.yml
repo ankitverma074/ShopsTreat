@@ -33,7 +33,9 @@ test:
   password: logohasan
 
 production:
-  adapter: sqlite3
-  database: db/production.sqlite3
+  adapter: postgresql
+  encoding: unicode
+  database: shopstreat
   pool: 5
-  timeout: 5000
+  username: postgres
+  password: logohasan
