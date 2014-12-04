@@ -9,7 +9,7 @@ gem 'rails', '4.1.8'
 # Use Mysql as the database for Active Record
 
 gem 'pg'
-gem 'ruby-debug-ide'
+#gem 'ruby-debug-ide'
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.3'
