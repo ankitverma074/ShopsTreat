@@ -12,8 +12,8 @@ class User < ActiveRecord::Base
                     :uniqueness => { :case_sensitive => false }
 
   # Automatically create the virtual attribute 'password_confirmation'.
-  validates_presence_of :password
-                        # :confirmation => true,
+  validates_presence_of :password,
+                         :confirmation => true
                         # :length => { :within => 6..40 }
                         
   before_save :encrypt_password

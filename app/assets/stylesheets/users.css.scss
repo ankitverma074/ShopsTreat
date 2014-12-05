@@ -1,3 +1,124 @@
 // Place all the styles related to the Users controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+.txt_half{
+  border-width: 1px;
+  border-radius: 3px;
+  height: 30px;  
+  font-family: century gothic;
+  font-size: 1.1em;
+  padding-left: 5px;
+  width: 100%;
+  border-style: solid;
+  border-color: black;
+}
+
+.txt_half:focus{
+  border-color: blue;
+}
+
+.txt_full{
+  border-width: 1px;
+  border-radius: 3px;
+  height: 30px;  
+  font-family: century gothic;
+  font-size: 1.1em;
+  padding-left: 5px;
+  width: 100%;
+  border-style: solid;
+  border-color: black;
+}
+
+.txt_full:focus{
+  border-color: blue;
+}
+
+div{
+  display: block;
+}
+
+#create_form{
+  background-color: #FFFFFF;
+  width: 60%;
+  margin: 0 auto;
+  border-radius: 20px;
+}
+
+body{
+  background: #6F4047;
+  margin: initial;
+}
+
+h1{
+  font-family: century gothic;
+  font-weight: normal;
+  font-size: 2.3em;
+  text-align: center;
+}
+
+.hrformcrtusr{
+  border-style: ridge;
+  border-color: #51EFDD;
+  border-width: 1px;
+  width: 90%;
+}
+
+.vendor_flag_lbl{
+  font-family: century gothic;
+  font-size: 1.1em;
+  margin-left: 10px;
+}
+
+.form_header{
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.btnmain{
+  height: 50px;
+  width: 200px;
+  background-color: rgb(92, 168, 215);
+  border-radius: 10px;
+  border-style: solid;
+  font-family: century gothic;
+  font-size: 1.2em;
+  color: white;
+}
+
+.field_half{
+  width: 40%;
+  float: left;
+}
+
+.field_half:nth-child(odd){
+  padding-right: 10%
+}
+
+.field_half:nth-child(even){
+  padding-left: 10%
+}
+
+.field_full{
+  width: 100%;
+  float: left;
+}
+
+.form_main{
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+.form_footer{
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-bottom: 30px;
+}
+
+.space{
+  margin-bottom: 25px;
+  #visibility: hidden;
+}
+
+.new_user{
+  margin-top: 100px
+}

@@ -11,31 +11,44 @@
     </div>
   <% end %>
 
-  <div class="field">
-    <%= f.label :email %><br />
-    <%= f.text_field :email %>
+ <div id="create_form">
+  <header class="form_header"><h1>Register with us</h1><br/><hr class="hrformcrtusr"/></header>  
+  <main class="form_main">
+  <div class="formrow">
+	  <div class="field_full">
+	    <%= f.text_field :email, :placeholder => "Email", :class => 'txt_full' %>
+	  </div>
+  </div>	
+  <br/><br/><br/><br/>	
+  <div class="formrow">
+	  <div class="field_half">
+	    <%= f.text_field :f_name, :placeholder => "First Name" , :class => 'txt_half' %>
+	  </div>
+	  <div class="field_half">
+	    <%= f.text_field :l_name, :placeholder => "Last Name", :class => 'txt_half' %>
+	  </div>
   </div>
-  <div class="field">
-    <%= f.label :password %><br />
-    <%= f.text_field :password %>
+  <br/><br/><br/><br/>
+  <div class="formrow">
+	  <div class="field_half">
+	    <%= f.password_field :password, :placeholder => "Password", :class => 'txt_half'  %>
+	  </div>
+	  <div class="field_half">
+	    <%= f.password_field :password_confirmation, :placeholder => "Confirm Password", :class => 'txt_half' %>
+	  </div>
   </div>
-  <div class="field">
-    <%= f.label :password_confirmation %><br />
-    <%= f.text_field :password_confirmation %>
+  <br/><br/><br/><br/>
+  <!-- <div class="field">  	
+    <%= f.check_box :vendor_flag%>
+    <%= f.label "I am a Vendor" , :class => 'vendor_flag_lbl' %>
+  </div> -->
+  </main>
+  <hr class="hrformcrtusr"/>
+  <footer class="form_footer"><br/>
+  <div class="actions_crtuser">
+    <%= f.submit :class => 'btnmain' %>
   </div>
-  <div class="field">
-    <%= f.label :f_name %><br />
-    <%= f.text_field :f_name %>
+  </footer>
   </div>
-  <div class="field">
-    <%= f.label :l_name %><br />
-    <%= f.text_field :l_name %>
-  </div>
-  <div class="field">
-    <%= f.label :vendor_flag %><br />
-    <%= f.text_field :vendor_flag %>
-  </div>
-  <div class="actions">
-    <%= f.submit %>
-  </div>
+
 <% end %>
