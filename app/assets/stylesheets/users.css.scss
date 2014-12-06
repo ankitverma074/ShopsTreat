@@ -8,7 +8,7 @@
   font-family: century gothic;
   font-size: 1.1em;
   padding-left: 2%;
-  width: 98%;
+  width: 100%;
   border-style: solid;
   border-color: black;
 }
@@ -28,7 +28,7 @@
   font-family: century gothic;
   font-size: 1.1em;
   padding-left: 2%;
-  width: 98%;
+  width: 100%;
   border-style: solid;
   border-color: black;
 }
@@ -43,7 +43,7 @@ div{
 
 #create_form{
   background-color: #FFFFFF;
-  width: 60%;
+  width: 50%;
   margin: 0 auto;
   border-radius: 20px;
 }
@@ -78,10 +78,6 @@ h1{
   padding-bottom: 40px;
 }
 
-main.wrapper{
-  display: block;
-}
-
 .btnmain{
   height: 50px;
   width: 200px;
@@ -98,7 +94,7 @@ main.wrapper{
 }
 
 .field_half{
-  width: 40%;
+  width: 50%;
   float: left;
 }
 
@@ -127,9 +123,15 @@ main.wrapper{
   padding-bottom: 30px;
 }
 
-.space{
-  margin-bottom: 25px;
-  #visibility: hidden;
+*{
+  -webkit-box-sizing:border-box;
+  -moz-box-sizing:border-box;
+   box-sizing:border-box
+ }
+
+.space_lbl{
+  line-height: 30px;
+  visibility: hidden;
 }
 
 .new_user{
