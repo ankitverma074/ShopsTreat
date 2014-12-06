@@ -7,8 +7,8 @@
   height: 30px;  
   font-family: century gothic;
   font-size: 1.1em;
-  padding-left: 5px;
-  width: 100%;
+  padding-left: 2%;
+  width: 98%;
   border-style: solid;
   border-color: black;
 }
@@ -17,14 +17,18 @@
   border-color: blue;
 }
 
+.field_with_errors{
+  width: 100%;
+}
+
 .txt_full{
   border-width: 1px;
   border-radius: 3px;
   height: 30px;  
   font-family: century gothic;
   font-size: 1.1em;
-  padding-left: 5px;
-  width: 100%;
+  padding-left: 2%;
+  width: 98%;
   border-style: solid;
   border-color: black;
 }
@@ -74,6 +78,10 @@ h1{
   padding-bottom: 40px;
 }
 
+main.wrapper{
+  display: block;
+}
+
 .btnmain{
   height: 50px;
   width: 200px;
@@ -83,6 +91,10 @@ h1{
   font-family: century gothic;
   font-size: 1.2em;
   color: white;
+}
+
+.btnmain:mouse_over{
+  background-color: #5BA0CB;
 }
 
 .field_half{
@@ -106,6 +118,7 @@ h1{
 .form_main{
   padding-left: 60px;
   padding-right: 60px;
+  display: block;
 }
 
 .form_footer{
@@ -120,5 +133,5 @@ h1{
 }
 
 .new_user{
-  margin-top: 100px
+  margin-top: 100px;
 }
